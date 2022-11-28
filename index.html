@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Basketball Scoreboard</title>
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.cdnfonts.com/css/cursed-timer-ulil" rel="stylesheet">
+                
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    
+  </head>
+  <body>
+    <div class="container">
+      <div class="home">
+          <h3>HOME</h3>
+          <div class="scoreboard-1">
+            <h1 id="scoreboard1">0</h1>
+          </div>
+          <ul class="button">
+            <li><button id="button1" onclick="plusOne()">+1</button></li>
+            <li><button id="button2" onclick="plusTwo()">+2</button></li>
+            <li><button id="button3" onclick="plusThree()">+3</button></li>
+          </ul>
+      </div>
+      <div class="guest">
+          <h3>GUEST</h3>
+          <div class="scoreboard-1">
+            <h1 id="scoreboard2">0</h1>
+          </div>
+          <ul class="button">
+            <li><button id="button11" onclick="plus1()">+1</button></li>
+            <li><button id="button22" onclick="plus2()">+2</button></li>
+            <li><button id="button33" onclick="plus3()">+3</button></li>
+          </ul>
+      </div>
+    </div>
+    <div class="container2">
+      <p id="leadingboard">The Game is about to start</p>
+      <button id="newgame" onclick="newGame()">NEW GAME</button>
+    </div>
+    <script type="text/javascript" src='script.js'></script>
+  </body>
+</html>
