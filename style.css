@@ -80,6 +80,7 @@ button {
 .container2 {
     display: grid;
     grid-template-columns: auto;
+    text-align: center;
 }
 
 #newgame {
